@@ -1,5 +1,7 @@
-{pkgs, zig}:
-
+{
+  pkgs,
+  zig,
+}:
 pkgs.mkShell {
   name = "zig greet";
 
